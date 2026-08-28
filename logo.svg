@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    version="1.2"
+    baseProfile="tiny"
+    width="512"
+    height="512"
+    viewBox="0 0 512 512">
+
+    <!-- sfondo -->
+    <circle
+        cx="256"
+        cy="256"
+        r="248"
+        fill="#2196F3"/>
+
+    <!-- ombra -->
+    <g transform="translate(48 40) scale(0.85)">
+        <path
+            fill="#8FAEC9"
+            d="
+                M96 416
+                L96 96
+                L170 96
+                L256 280
+                L342 96
+                L416 96
+                L416 416
+                L352 416
+                L352 225
+                L256 430
+                L160 225
+                L160 416
+                Z"/>
+    </g>
+
+    <!-- M principale -->
+    <path
+        fill="#FFFFFF"
+        d="
+            M96 416
+            L96 96
+            L176 96
+            L256 268
+            L336 96
+            L416 96
+            L416 416
+            L344 416
+            L344 220
+            L256 408
+            L168 220
+            L168 416
+            Z"/>
+
+</svg>
